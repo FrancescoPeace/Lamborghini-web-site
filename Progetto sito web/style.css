@@ -6,7 +6,9 @@ a{
     color: #fff;
     text-decoration: none;
 }
+
 /* Utility */
+
 .btn{
     display: inline-block;
     font-size: 15px;
@@ -14,12 +16,11 @@ a{
     background: #333;
     padding: 13px 18px;
     border: none;
-  
 }
+
 .btn:hover{
     background: orange;
     color: #333;
-
 }
 
 .btn-light{
@@ -29,13 +30,12 @@ a{
 
 
 
-
 /* Navbar */
+
 
 #navbar{
     background: #555;
 }
-
 
 #navbar  .container{
     display: flex;
@@ -45,21 +45,14 @@ a{
 #navbar  .container ul{
     display: flex;
     padding-right: 1rem;
-
-    
 }
 #navbar  .container ul li{
     list-style: none;
-    
-    
-
 }
 
 #navbar  .container ul li a{
 padding: 20px;
 display: block;
-
-
 }
 
 
@@ -84,7 +77,6 @@ display: block;
     
     justify-content: center;
     align-items: center;
-
 }
 #white{
     color: #fff;
@@ -112,15 +104,10 @@ display: block;
     display: flex;
     height: 335px;
 background: #333;
-
-
 }
 #showcase-2 .container .image{
-    background: url(https://lh3.googleusercontent.com/proxy/IJdjF2Bd1BaVJKhndIB0F6VWcxEpQEutkueZNY32zuqiJF3yM_4-BsEsgDWQzcdUE0hw9avIAznnlPkYQGEgS9wfFDvwy2J2dosGGT_2JwOKCqXdwTypaT4lTuVtm_9HyTLLPUm7GpEyDEaZPqqrExTGOw) no-repeat;
+    background: url(https://www.livegp.it/wp-content/uploads/2020/04/F39FD84F-F312-4973-A9AB-A557B18F35B0.jpeg) no-repeat center center/cover;
     flex: 1;
-    ;
-    
-
 }
 #showcase-2 .container .section-text{
    display: flex;
@@ -129,13 +116,11 @@ background: #333;
     justify-content: center;
     align-items: center;
     color: #fff;
-
 }
 #colorenero{
     color: #fff;
     text-align: justify;
     padding: 0 20px;
-    
 }
 #secondotitolo{
     text-align: center;
@@ -180,7 +165,6 @@ background: #333;
     padding: 20px;
     color: white;
     text-align: center;
-
 }
 
 /* About info */
@@ -189,8 +173,6 @@ background: #333;
     display: flex;
     justify-content: center;
     padding: 50px 0;
-    
-
 }
 #about-info img{
     max-width: 500px;
@@ -228,4 +210,46 @@ background: #333;
 .container-grey{
     background: #333;
     color: white;
+}
+
+/* Contact */
+#contact-form{
+    padding: 2rem 5rem;
+
+}
+
+#contact-form h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+#contact-form p{
+
+    padding-bottom: 1rem;
+}
+#contact-form button{
+
+  margin-top: 2rem;
+}
+#contact-form .form-group{
+    margin-bottom: 2rem ;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+#contact-form label{
+    margin-bottom: 5px;
+    display: block;
+}
+#contact-form textarea{
+    height: 180px;
+
+}
+#contact-form input:focus ,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: orange;
 }
