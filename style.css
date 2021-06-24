@@ -1,0 +1,400 @@
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Utility */
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background: #333;
+    padding: 13px 18px;
+    border: none;
+    
+  transition: 0.3s;
+}
+
+.btn:hover{
+    background: orange;
+    color: #333;
+}
+
+.btn-light{
+    background: #bbb;
+    color: black;
+}
+
+
+
+/* Navbar */
+
+
+#navbar{
+    background: #555;
+}
+
+#navbar  .container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+#navbar  .container ul{
+    display: flex;
+    padding-right: 1rem;
+}
+#navbar  .container ul li{
+    list-style: none;
+}
+
+#navbar  .container ul li a{
+padding: 20px;
+display: block;
+}
+
+
+#navbar  .container h1{
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background:#444 ;
+    color: orange;
+}
+
+/* Section 1 */
+
+#showcase .container {
+    display: flex;
+    flex-direction: column; 
+    height: 90vh;
+    background-image: url(https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/694/VIDEO_HEADER_HURACAN_EVO_RWS_SPY_02.jpg) ;
+    
+    justify-content: center;
+    align-items: center;
+}
+#white{
+    color: #fff;
+    font-size: large;
+    padding: 0 20px;
+    text-align: justify;
+}
+#showcase .container h1{
+    color: #fff;
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+    #showcase .container p{
+
+        padding-bottom: 2rem;
+    }
+
+    .color-primary{
+    color: orange;
+}
+
+/* Section 2 */
+
+#showcase-2 .container{
+    display: flex;
+    height: 335px;
+background: #333;
+}
+#showcase-2 .container .image{
+    background: url(https://www.livegp.it/wp-content/uploads/2020/04/F39FD84F-F312-4973-A9AB-A557B18F35B0.jpeg) no-repeat center center/cover;
+    flex: 1;
+}
+#showcase-2 .container .section-text{
+   display: flex;
+   flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#colorenero{
+    color: #fff;
+    text-align: justify;
+    padding: 0 20px;
+}
+#secondotitolo{
+    text-align: center;
+}
+.text-primary{
+    color: orange;
+}
+
+/* Section 3 */
+
+#showcase-3{
+   display: flex;
+    /* height: 300px; */
+    align-items: center;
+    text-align: center;
+}
+.bow-white{
+    background: white;
+   
+}
+.box-orange{
+    background: orange;
+    
+}
+.box{
+    flex: 1 ;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#showcase-3 i {
+    padding-bottom: 20px;
+}
+#showcase-3 h3{
+    padding-bottom: 30px;
+}
+/* Footer */
+#footer{
+    background: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* About info */
+
+#about-info .container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+#about-info img{
+    max-width: 500px;
+    max-height: 450px; 
+    border-radius: 30%;
+}
+
+#about-info .info-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;    
+}
+
+.info-left span{
+    margin-right: 5px;
+}
+
+#about-info .info-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+#le-nostre-auto{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+   align-items: center;
+}
+.info-left p {
+    text-align: justify;
+}
+
+.container-grey{
+    background: #333;
+    color: white;
+}
+
+/* Contact */
+#contact-form{
+    padding: 2rem 5rem;
+
+}
+
+#contact-form h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+#contact-form p{
+
+    padding-bottom: 1rem;
+}
+#contact-form button{
+
+  margin-top: 2rem;
+}
+#contact-form .form-group{
+    margin-bottom: 2rem ;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+#contact-form label{
+    margin-bottom: 5px;
+    display: block;
+}
+#contact-form textarea{
+    height: 180px;
+
+}
+#contact-form input:focus ,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: orange;
+}
+
+/* Prova menu */
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Prova faccina */
+
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+
+/* Prova alert */
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: orange; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+td, th{
+    border: 1px solid black
+}
+table{
+    border-collapse: collapse;
+}
+
+.name1{
+    width: 120px;
+    background: #666;
+}
+
+.email1{
+    width: 250px;
+    background: #666;
+}
+
+.message1{
+    width: 350px;
+    background: #666;
+}
